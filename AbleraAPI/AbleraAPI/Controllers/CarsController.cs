@@ -2,10 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using AbleraAPI.Data;
 using AbleraAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AbleraAPI.Controllers
 {
     [ApiController]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     public class CarsController : Controller
     {
