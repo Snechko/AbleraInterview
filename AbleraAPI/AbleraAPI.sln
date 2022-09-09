@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbleraAPI", "AbleraAPI\AbleraAPI.csproj", "{C0B8CA76-14D5-4114-AF79-47EB853199C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbleraAPI", "AbleraAPI\AbleraAPI.csproj", "{C0B8CA76-14D5-4114-AF79-47EB853199C8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AbleraCars", "AbleraCars\AbleraCars.sqlproj", "{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{C0B8CA76-14D5-4114-AF79-47EB853199C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B8CA76-14D5-4114-AF79-47EB853199C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B8CA76-14D5-4114-AF79-47EB853199C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409FB0E2-0622-4BB8-89B8-714FE5D9BA98}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
