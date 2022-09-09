@@ -12,7 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //builder.Services.AddDbContext<CarsAPIDbContext>(options => options.UseInMemoryDatabase("carsDB"));
-builder.Services.AddDbContext<CarsAPIDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("dbcon")));
+builder.Services.AddDbContext<CarsAPIDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ableraConnectionString")));
+
+
+
+
 
 var app = builder.Build();
 
