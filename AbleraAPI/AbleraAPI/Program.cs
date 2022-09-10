@@ -15,7 +15,23 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<CarsAPIDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ableraConnectionString")));
 
 
-
+/////////////////////////////////////////////////////
+//
+//  TO SET UP DATABASE TABLE RUN:
+//
+//  "Update-Database"
+//
+//   COMMAND IN THE PACKAGE MANAGER CONSOLE
+//
+/////////////////////////////////////////////////////
+//
+//  TO CHANGE DATABASE LOCATION CHANGE:
+//
+//  "ableraConnectionString"
+//
+//  IN appsettings.json WITH THE DESIRED IP
+//
+/////////////////////////////////////////////////////
 
 
 var app = builder.Build();
