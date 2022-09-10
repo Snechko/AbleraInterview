@@ -44,6 +44,7 @@ namespace AbleraAPI.Controllers
         {
             Car car = new Car()
             {
+                Customer = addCarsRequest.Customer,
                 Name = addCarsRequest.Name,
                 Properties = addCarsRequest.Properties
             };
@@ -62,6 +63,7 @@ namespace AbleraAPI.Controllers
             var car = dbContext.Cars.Find(id);
             if (car != null)
             {
+                car.Customer = updateCarRequest.Customer;
                 car.Name = updateCarRequest.Name;
                 car.Properties = updateCarRequest.Properties;
 

@@ -8,6 +8,7 @@ namespace AbleraAPI.Models
 {
     public class AddCarsRequest
     {
+        public string? Customer { get; set; }
         public string? Name { get; set; }
         public string? Properties { get; set; }
     }

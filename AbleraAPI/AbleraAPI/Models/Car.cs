@@ -7,6 +7,7 @@ namespace AbleraAPI.Models
         [Key]
         public int Id { get; set; }
 
+        public string? Customer { get; set; }
         public string? Name { get; set; }   
         public string? Properties { get; set; }
     }
